@@ -11,7 +11,7 @@ spec:
     namespace: gitops-instance
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/gitops-cp4d/non-olm-cp4d-gitops.git
+    repoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-0901.git
     targetRevision: main
     path: 9-post-installation
     kustomize: {}
