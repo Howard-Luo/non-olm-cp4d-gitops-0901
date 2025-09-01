@@ -60,7 +60,7 @@ spec:
             - /bin/sh
             - -c
             - |
-              set -Eeuo pipefail
+              set -eu
 
               NS='gitops-instance'
               CR='ibmcpd-cr'
