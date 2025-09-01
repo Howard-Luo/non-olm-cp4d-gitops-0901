@@ -14,8 +14,8 @@ spec:
   source:
     path: ''
     repoURL: https://gitops-cp4d.github.io/non-olm-cp4d-gitops/repos
-    targetRevision: 5.2.0+20250604.210250.1608.split
-    chart: planning-analytics
+    targetRevision: 5.2.0+20250604.210250.1608
+    chart: planning-analytics-instance
     helm:
       valuesObject:
         global:
