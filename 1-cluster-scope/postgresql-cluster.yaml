@@ -29,7 +29,7 @@ spec:
           operatorNamespace: gitops-operator
         webhook:
           mutating:
-            create: true
+            create: false
           validating:
-            create: true
+            create: false
   project: default
